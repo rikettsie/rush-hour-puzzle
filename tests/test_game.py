@@ -20,7 +20,7 @@ def solve_silently(filepath: str):
         return game.solve()
 
 
-class TestExemple1(unittest.TestCase):
+class TestSimpleExemple(unittest.TestCase):
     """Simple 4-car puzzle — expected optimal solution: 3 moves."""
 
     @classmethod
@@ -45,7 +45,7 @@ class TestExemple1(unittest.TestCase):
         self.assertEqual(self.solution[-1], EXIT_MOVE)
 
 
-class TestExemple18(unittest.TestCase):
+class TestComplexExemple(unittest.TestCase):
     """Complex 12-car puzzle — verifies solver correctness."""
 
     @classmethod

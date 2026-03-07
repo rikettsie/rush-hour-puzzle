@@ -25,7 +25,7 @@ rush_hour/
 ## Usage
 
 ```bash
-python3 main.py
+python main.py
 ```
 
 The program loads the puzzle from `./data/` directory (e.g. `exemple_18.txt`), displays the initial board, and prints the solution.
